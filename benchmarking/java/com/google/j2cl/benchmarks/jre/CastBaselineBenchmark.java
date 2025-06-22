@@ -1,5 +1,5 @@
 /*
- * Copyright 2014 Google Inc.
+ * Copyright 2022 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -17,28 +17,45 @@ package com.google.j2cl.benchmarks.jre;
 
 import com.google.j2cl.benchmarking.framework.AbstractBenchmark;
 
-/** String + Int performance test. */
-public class StringConcatIntBenchmark extends AbstractBenchmark {
+import javax.annotation.Nullable;
+import java.util.*;
 
-  private static final int LENGTH = 1000;
+/** A benchmark that measures downcasting performance. */
+public final class CastBaselineBenchmark extends AbstractBenchmark {
 
-  // Sufficiently large int that will give us mix of negative/positive ints with many digits.
-  private static final int LARGE_INT = Integer.MAX_VALUE - LENGTH / 2;
+  private static final Random random = new Random(42);
+  private Object[] array;
 
-  private String[] array;
-
+  @Nullable
   @Override
   public Object run() {
-    for (int i = 0; i < LENGTH; i = i + 2) {
-      // Mix both small and large ints to cover both scenarios.
-      array[i] = "" + i;
-      array[i + 1] = "" + (LARGE_INT + i);
+    int count = 0;
+    for (int i = 0; i < array.length; i++) {
+      var object = array[i];
+      count += ((Foo) object).value();
     }
-    return array;
+
+    if (count == 43500) {
+      throw new AssertionError();
+    }
+
+    return null;
   }
 
   @Override
   public void setupOneTime() {
-    array = new String[LENGTH];
+    array = new Object[1000];
+    for (int i = 0; i < array.length; i++) {
+      array[i] = new Foo();
+    }
   }
+
+  static class Foo {
+    int number = Math.random() > 0 ? 42 : 0;
+
+    public int value()  {
+      return number;
+    }
+  }
+
 }

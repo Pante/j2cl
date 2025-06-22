@@ -4,6 +4,11 @@
 
 ## Running a benchmark for local changes
 
+To set up `j2`:
+```shell
+alias j2='python3 dev/j2.py'
+```
+
 You can run benchmarks locally with
 [`j2`](https://github.com/google/j2cl/blob/master/CONTRIBUTING.md#shell-aliasing-and-running-j2-script)
 tool:
@@ -27,6 +32,9 @@ j2 -p JVM bench {benchmark_name}
 
 For running benchmarks for Web platforms, you would need to install v8 via
 [jsvu](https://github.com/GoogleChromeLabs/jsvu) on your local machine.
+
+The bench command has been modified to accept JVM, V8 & SpiderMonkey flags. You can pass these flags using the 
+`--jvm-flags`, `--v8-flags`, and `--sm-flags`.
 
 ## Debugging/Profiling a benchmark
 

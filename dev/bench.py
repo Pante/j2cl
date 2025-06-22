@@ -77,8 +77,8 @@ def _get_bench_map():
   bench_names = {}
   for bench_name in _read_gen_file(_JRE_BENCHMARK_LIST_FILE):
     bench_names[bench_name] = "jre/" + bench_name
-  for bench_name in _read_gen_file(_OCTANE_BENCHMARK_LIST_FILE):
-    bench_names[bench_name] = "octane/" + bench_name
+  # for bench_name in _read_gen_file(_OCTANE_BENCHMARK_LIST_FILE):
+  #   bench_names[bench_name] = "octane/" + bench_name
 
   return bench_names
 

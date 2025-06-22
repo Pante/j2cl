@@ -251,6 +251,16 @@ benchmark(
 )
 
 benchmark(
+    name = "InstanceOfRandomBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "InstanceOfBaselineBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
     name = "InstanceOfDeepBenchmark",
 )
 
@@ -260,8 +270,63 @@ benchmark(
 )
 
 benchmark(
+    name = "DynamicClassDispatchRandomBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "DynamicClassDispatchBaselineBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
     name = "DynamicInterfaceDispatchBenchmark",
     deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "DynamicInterfaceDispatchRandomBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "DynamicInterfaceDispatchBaselineBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "BoxingBenchmark",
+)
+
+benchmark(
+    name = "BoxingCachedBenchmark",
+)
+
+benchmark(
+    name = "BoxingBaselineBenchmark",
+)
+
+benchmark(
+    name = "CastBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "CastUnsafeBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "CastBaselineBenchmark",
+    deps = ["//third_party:jsr305_annotations"],
+)
+
+benchmark(
+    name = "ObjectChurnMixedBenchmark",
+)
+
+benchmark(
+    name = "ObjectChurnBaselineBenchmark",
 )
 
 benchmark(

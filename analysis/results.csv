@@ -1,0 +1,457 @@
+Benchmark,Toolchain,Engine,Throughput (ops/ms)
+ArrayIntCreateBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),6.526365508244242
+ArrayIntCreateBenchmark,JVM (C2),OpenJDK (24.0.1),6.789221758983123
+ArrayIntCreateBenchmark,J2CL - JS,V8 (13.9.153),1.1046856911297038
+ArrayIntCreateBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),0.40577782567313303
+ArrayIntCreateBenchmark,J2CL - WASM,V8 (13.9.153),6.35359682649028
+ArrayIntCreateBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),2.728834433208576
+ArrayIntSumBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),343.69981437579236
+ArrayIntSumBenchmark,JVM (C2),OpenJDK (24.0.1),334.3300832898741
+ArrayIntSumBenchmark,J2CL - JS,V8 (13.9.153),166.1688070630489
+ArrayIntSumBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),127.20630509053758
+ArrayIntSumBenchmark,J2CL - WASM,V8 (13.9.153),168.92611251883662
+ArrayIntSumBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),246.5947820595896
+ArrayObjectCreateBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),6.872728948914014
+ArrayObjectCreateBenchmark,JVM (C2),OpenJDK (24.0.1),3.4711584611012283
+ArrayObjectCreateBenchmark,J2CL - JS,V8 (13.9.153),1.9926326224637907
+ArrayObjectCreateBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),19.01768410801927
+ArrayObjectCreateBenchmark,J2CL - WASM,V8 (13.9.153),6.9066560189911375
+ArrayObjectCreateBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),0.9673261766591945
+ArrayObjectIterationBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),593.6248131843338
+ArrayObjectIterationBenchmark,JVM (C2),OpenJDK (24.0.1),599.0401226935862
+ArrayObjectIterationBenchmark,J2CL - JS,V8 (13.9.153),166.92307819081847
+ArrayObjectIterationBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),110.57289074897933
+ArrayObjectIterationBenchmark,J2CL - WASM,V8 (13.9.153),138.58834319980764
+ArrayObjectIterationBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),114.40024869288678
+ArrayObjectSetBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),543.2369015084753
+ArrayObjectSetBenchmark,JVM (C2),OpenJDK (24.0.1),555.0383659337068
+ArrayObjectSetBenchmark,J2CL - JS,V8 (13.9.153),2427.869108258362
+ArrayObjectSetBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),971.2056027149553
+ArrayObjectSetBenchmark,J2CL - WASM,V8 (13.9.153),1074.7594759263536
+ArrayObjectSetBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),634.9415431467912
+ArrayTestObjectCreateBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),6.87877273108195
+ArrayTestObjectCreateBenchmark,JVM (C2),OpenJDK (24.0.1),6.924638607322656
+ArrayTestObjectCreateBenchmark,J2CL - JS,V8 (13.9.153),2.0168973332400597
+ArrayTestObjectCreateBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),19.7178356257526
+ArrayTestObjectCreateBenchmark,J2CL - WASM,V8 (13.9.153),6.817939955998002
+ArrayTestObjectCreateBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),0.9658928430909548
+ArrayTestObjectSetBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),532.7685339344575
+ArrayTestObjectSetBenchmark,JVM (C2),OpenJDK (24.0.1),562.2928370533153
+ArrayTestObjectSetBenchmark,J2CL - JS,V8 (13.9.153),313.02991135122267
+ArrayTestObjectSetBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),212.7912832884318
+ArrayTestObjectSetBenchmark,J2CL - WASM,V8 (13.9.153),289.9803972294841
+ArrayTestObjectSetBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),73.96266540001848
+LongAddBigNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),341.56574270587515
+LongAddBigNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),340.5490651374842
+LongAddBigNumbersBenchmark,J2CL - JS,V8 (13.9.153),9.84094221096758
+LongAddBigNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),8.835430270644427
+LongAddBigNumbersBenchmark,J2CL - WASM,V8 (13.9.153),168.969418987686
+LongAddBigNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),248.3601038116526
+LongAddSmallNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),3523.188322640759
+LongAddSmallNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),3510.2811836495225
+LongAddSmallNumbersBenchmark,J2CL - JS,V8 (13.9.153),97.96821807451147
+LongAddSmallNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),87.28798559062588
+LongAddSmallNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1590.0273152948444
+LongAddSmallNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),2346.5623583477563
+LongDivisionBigNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1700.7673276994428
+LongDivisionBigNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),1709.7866183163474
+LongDivisionBigNumbersBenchmark,J2CL - JS,V8 (13.9.153),10.91552302058868
+LongDivisionBigNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),7.246412086332009
+LongDivisionBigNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1185.33314042092
+LongDivisionBigNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),550.2349238919999
+LongDivisionSmallNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1687.5696349184022
+LongDivisionSmallNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),1695.3321153209017
+LongDivisionSmallNumbersBenchmark,J2CL - JS,V8 (13.9.153),15.937268025292969
+LongDivisionSmallNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),9.831638403548116
+LongDivisionSmallNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1424.4500426997938
+LongDivisionSmallNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),700.7641931619747
+LongMultiplyBigNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),4423.746870615668
+LongMultiplyBigNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),4400.37818733269
+LongMultiplyBigNumbersBenchmark,J2CL - JS,V8 (13.9.153),97.13443067583239
+LongMultiplyBigNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),58.8412488280019
+LongMultiplyBigNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1499.8451317725178
+LongMultiplyBigNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),969.2511048325089
+LongMultiplySmallNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),4483.908159714406
+LongMultiplySmallNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),4421.006346427018
+LongMultiplySmallNumbersBenchmark,J2CL - JS,V8 (13.9.153),93.95843724150043
+LongMultiplySmallNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),58.41670314456928
+LongMultiplySmallNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1522.6721636687284
+LongMultiplySmallNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),975.5518006036991
+LongShiftBigNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),8542.215214743717
+LongShiftBigNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),9050.430862042322
+LongShiftBigNumbersBenchmark,J2CL - JS,V8 (13.9.153),161.9268443290919
+LongShiftBigNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),75.07804648199809
+LongShiftBigNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1750.0244023035327
+LongShiftBigNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),1365.7394383979542
+LongShiftSmallNumbersBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),8524.14978836555
+LongShiftSmallNumbersBenchmark,JVM (C2),OpenJDK (24.0.1),9097.601171155422
+LongShiftSmallNumbersBenchmark,J2CL - JS,V8 (13.9.153),157.1533381952115
+LongShiftSmallNumbersBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),75.56152396305195
+LongShiftSmallNumbersBenchmark,J2CL - WASM,V8 (13.9.153),1746.7046139516447
+LongShiftSmallNumbersBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),1378.8280939615322
+CastBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),857.8699918538277
+CastBenchmark,JVM (C2),OpenJDK (24.0.1),893.8081632645517
+CastBenchmark,J2CL - JS,V8 (13.9.153),183.78148483569123
+CastBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),78.82166805684027
+CastBenchmark,J2CL - WASM,V8 (13.9.153),674.6485108871068
+CastBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),499.17082098082244
+CastUnsafeBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),833.5128617211249
+CastUnsafeBenchmark,JVM (C2),OpenJDK (24.0.1),1130.141674357383
+CastUnsafeBenchmark,J2CL - JS,V8 (13.9.153),526.8854458495364
+CastUnsafeBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),425.44176650996735
+CastUnsafeBenchmark,J2CL - WASM,V8 (13.9.153),627.063623518761
+CastUnsafeBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),496.0112406416242
+CastBaselineBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2380.8248790547705
+CastBaselineBenchmark,JVM (C2),OpenJDK (24.0.1),2430.151717317805
+CastBaselineBenchmark,J2CL - JS,V8 (13.9.153),1461.2440888349702
+CastBaselineBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),802.7386658115379
+CastBaselineBenchmark,J2CL - WASM,V8 (13.9.153),1447.3360188613874
+CastBaselineBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),1093.4664360211627
+SmallExceptionBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2800.6725267309143
+SmallExceptionBenchmark,JVM (C2),OpenJDK (24.0.1),2551.0370673884677
+SmallExceptionBenchmark,J2CL - JS,V8 (13.9.153),405.7481714130005
+SmallExceptionBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),718.7315228850028
+SmallExceptionBenchmark,J2CL - WASM,V8 (13.9.153),753.6761375567818
+SmallExceptionBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),391.4085590613728
+SmallExceptionWithStackTraceAccessedBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1028.9340068800802
+SmallExceptionWithStackTraceAccessedBenchmark,JVM (C2),OpenJDK (24.0.1),973.7283652521066
+SmallExceptionWithStackTraceAccessedBenchmark,J2CL - JS,V8 (13.9.153),176.99230354973375
+SmallExceptionWithStackTraceAccessedBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),254.01474882543448
+SmallExceptionWithStackTraceAccessedBenchmark,J2CL - WASM,V8 (13.9.153),758.4683687472617
+SmallExceptionWithStackTraceAccessedBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),332.32356075958324
+BigExceptionBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),520.1828481831486
+BigExceptionBenchmark,JVM (C2),OpenJDK (24.0.1),493.8440476744927
+BigExceptionBenchmark,J2CL - JS,V8 (13.9.153),276.0465327100643
+BigExceptionBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),193.2268646482304
+BigExceptionBenchmark,J2CL - WASM,V8 (13.9.153),590.4149748445379
+BigExceptionBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),45.01545234796884
+BigExceptionWithStackTraceAccessedBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),232.7964268280954
+BigExceptionWithStackTraceAccessedBenchmark,JVM (C2),OpenJDK (24.0.1),235.97644631766775
+BigExceptionWithStackTraceAccessedBenchmark,J2CL - JS,V8 (13.9.153),138.6775820774675
+BigExceptionWithStackTraceAccessedBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),69.0634189989833
+BigExceptionWithStackTraceAccessedBenchmark,J2CL - WASM,V8 (13.9.153),582.775046045341
+BigExceptionWithStackTraceAccessedBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),43.520840860046626
+StringHashCodeBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),267.1744604217855
+StringHashCodeBenchmark,JVM (C2),OpenJDK (24.0.1),271.3214456632853
+StringHashCodeBenchmark,J2CL - JS,V8 (13.9.153),158.7699609254752
+StringHashCodeBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),128.88476537303413
+StringHashCodeBenchmark,J2CL - WASM,V8 (13.9.153),249.31850176632594
+StringHashCodeBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),45.04868347114051
+StringConcatIntBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),68.01311421733438
+StringConcatIntBenchmark,JVM (C2),OpenJDK (24.0.1),77.64042342877475
+StringConcatIntBenchmark,J2CL - JS,V8 (13.9.153),60.47380067972741
+StringConcatIntBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),44.82776656877921
+StringConcatIntBenchmark,J2CL - WASM,V8 (13.9.153),35.69821677458093
+StringConcatIntBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),25.29108901820242
+StringConcatDoubleBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),23.592877390823205
+StringConcatDoubleBenchmark,JVM (C2),OpenJDK (24.0.1),23.25827063263733
+StringConcatDoubleBenchmark,J2CL - JS,V8 (13.9.153),54.49981060684214
+StringConcatDoubleBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),21.973314419004907
+StringConcatDoubleBenchmark,J2CL - WASM,V8 (13.9.153),32.726754901952106
+StringConcatDoubleBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),15.826403419042213
+StringEqualsIgnoreCaseBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1422.939763323324
+StringEqualsIgnoreCaseBenchmark,JVM (C2),OpenJDK (24.0.1),1303.4592584195957
+StringEqualsIgnoreCaseBenchmark,J2CL - JS,V8 (13.9.153),316.21522696089903
+StringEqualsIgnoreCaseBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),338.5946017023049
+StringEqualsIgnoreCaseBenchmark,J2CL - WASM,V8 (13.9.153),286.7866326376691
+StringEqualsIgnoreCaseBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),62.775057037262954
+StringEqualsIgnoreCaseNonAsciiBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),183.7283476122039
+StringEqualsIgnoreCaseNonAsciiBenchmark,JVM (C2),OpenJDK (24.0.1),186.7323429844536
+StringEqualsIgnoreCaseNonAsciiBenchmark,J2CL - JS,V8 (13.9.153),60.67835898873041
+StringEqualsIgnoreCaseNonAsciiBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),127.35835691079612
+StringEqualsIgnoreCaseNonAsciiBenchmark,J2CL - WASM,V8 (13.9.153),55.420917238173125
+StringEqualsIgnoreCaseNonAsciiBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),96.86170561187991
+StringToUpperCaseBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),337.7298609675517
+StringToUpperCaseBenchmark,JVM (C2),OpenJDK (24.0.1),376.55096546446197
+StringToUpperCaseBenchmark,J2CL - JS,V8 (13.9.153),364.37713181291235
+StringToUpperCaseBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),346.47496099377906
+StringToUpperCaseBenchmark,J2CL - WASM,V8 (13.9.153),270.152453876852
+StringToUpperCaseBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),205.42037069499884
+StringToUpperCaseNonAsciiBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),121.62072319093042
+StringToUpperCaseNonAsciiBenchmark,JVM (C2),OpenJDK (24.0.1),150.32680636446185
+StringToUpperCaseNonAsciiBenchmark,J2CL - JS,V8 (13.9.153),143.70487980724786
+StringToUpperCaseNonAsciiBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),165.00468459344296
+StringToUpperCaseNonAsciiBenchmark,J2CL - WASM,V8 (13.9.153),127.33145754946811
+StringToUpperCaseNonAsciiBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),130.43671951883053
+StringBuilderLongStringsBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),9.688180216447856
+StringBuilderLongStringsBenchmark,JVM (C2),OpenJDK (24.0.1),9.479104815764519
+StringBuilderLongStringsBenchmark,J2CL - JS,V8 (13.9.153),113.42812912297275
+StringBuilderLongStringsBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),199.91074410888962
+StringBuilderLongStringsBenchmark,J2CL - WASM,V8 (13.9.153),184.4356481219499
+StringBuilderLongStringsBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),79.45942691611847
+StringBuilderShortStringsBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),243.4722327494509
+StringBuilderShortStringsBenchmark,JVM (C2),OpenJDK (24.0.1),196.43041412239305
+StringBuilderShortStringsBenchmark,J2CL - JS,V8 (13.9.153),112.96373529437622
+StringBuilderShortStringsBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),199.30595720019292
+StringBuilderShortStringsBenchmark,J2CL - WASM,V8 (13.9.153),183.89236732528204
+StringBuilderShortStringsBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),79.69072564339844
+ArrayListObjectAddBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),268.65539208155053
+ArrayListObjectAddBenchmark,JVM (C2),OpenJDK (24.0.1),347.06299479365805
+ArrayListObjectAddBenchmark,J2CL - JS,V8 (13.9.153),266.2064230100229
+ArrayListObjectAddBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),310.8045690428229
+ArrayListObjectAddBenchmark,J2CL - WASM,V8 (13.9.153),321.7552132744742
+ArrayListObjectAddBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),82.45533033878337
+ArrayListObjectGetBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),5387.518092472043
+ArrayListObjectGetBenchmark,JVM (C2),OpenJDK (24.0.1),5392.429504994635
+ArrayListObjectGetBenchmark,J2CL - JS,V8 (13.9.153),1560.6764057546889
+ArrayListObjectGetBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),456.699840195569
+ArrayListObjectGetBenchmark,J2CL - WASM,V8 (13.9.153),1528.069558690535
+ArrayListObjectGetBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),1112.3043150873668
+ArrayListObjectIterationBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),5307.1096887634385
+ArrayListObjectIterationBenchmark,JVM (C2),OpenJDK (24.0.1),5374.543578286036
+ArrayListObjectIterationBenchmark,J2CL - JS,V8 (13.9.153),918.0839110811106
+ArrayListObjectIterationBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),170.03822557689466
+ArrayListObjectIterationBenchmark,J2CL - WASM,V8 (13.9.153),1591.5045876731888
+ArrayListObjectIterationBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),1065.6007595626531
+ArrayListObjectIterationInterfaceBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),5242.203533224613
+ArrayListObjectIterationInterfaceBenchmark,JVM (C2),OpenJDK (24.0.1),5369.913323479843
+ArrayListObjectIterationInterfaceBenchmark,J2CL - JS,V8 (13.9.153),911.9535718955419
+ArrayListObjectIterationInterfaceBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),167.41624792536635
+ArrayListObjectIterationInterfaceBenchmark,J2CL - WASM,V8 (13.9.153),1568.8636930224804
+ArrayListObjectIterationInterfaceBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),248.8077796923348
+ArrayListObjectSetBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),531.1651845744382
+ArrayListObjectSetBenchmark,JVM (C2),OpenJDK (24.0.1),488.0765324836554
+ArrayListObjectSetBenchmark,J2CL - JS,V8 (13.9.153),1376.1501185171362
+ArrayListObjectSetBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),437.8931065784953
+ArrayListObjectSetBenchmark,J2CL - WASM,V8 (13.9.153),1052.1149659872594
+ArrayListObjectSetBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),607.0865965550475
+HashMapDoubleContainsKeyBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),171.69391025192954
+HashMapDoubleContainsKeyBenchmark,JVM (C2),OpenJDK (24.0.1),173.50036045970052
+HashMapDoubleContainsKeyBenchmark,J2CL - JS,V8 (13.9.153),24.03696968034746
+HashMapDoubleContainsKeyBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),18.930789143174557
+HashMapDoubleContainsKeyBenchmark,J2CL - WASM,V8 (13.9.153),113.47792581088486
+HashMapDoubleContainsKeyBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),55.03395257332677
+HashMapDoublePutBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),40.76688372676011
+HashMapDoublePutBenchmark,JVM (C2),OpenJDK (24.0.1),39.96717179960087
+HashMapDoublePutBenchmark,J2CL - JS,V8 (13.9.153),21.87230181850277
+HashMapDoublePutBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),18.654275568954226
+HashMapDoublePutBenchmark,J2CL - WASM,V8 (13.9.153),58.43174807238972
+HashMapDoublePutBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),28.89575872698876
+HashMapObjectContainsKeyBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),274.6993571397484
+HashMapObjectContainsKeyBenchmark,JVM (C2),OpenJDK (24.0.1),272.1953050453792
+HashMapObjectContainsKeyBenchmark,J2CL - JS,V8 (13.9.153),35.32885620649338
+HashMapObjectContainsKeyBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),17.914469457433405
+HashMapObjectContainsKeyBenchmark,J2CL - WASM,V8 (13.9.153),118.29131665002622
+HashMapObjectContainsKeyBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),70.7064493443675
+HashMapObjectContainsValueBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),0.41120794316389164
+HashMapObjectContainsValueBenchmark,JVM (C2),OpenJDK (24.0.1),0.4129871769124353
+HashMapObjectContainsValueBenchmark,J2CL - JS,V8 (13.9.153),0.0842708959130599
+HashMapObjectContainsValueBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),0.018371643069313572
+HashMapObjectContainsValueBenchmark,J2CL - WASM,V8 (13.9.153),0.23650742395531008
+HashMapObjectContainsValueBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),0.12984639207693568
+HashMapObjectIterationBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),283.9105515266163
+HashMapObjectIterationBenchmark,JVM (C2),OpenJDK (24.0.1),276.6088270185925
+HashMapObjectIterationBenchmark,J2CL - JS,V8 (13.9.153),107.96567034268669
+HashMapObjectIterationBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),22.603551700989026
+HashMapObjectIterationBenchmark,J2CL - WASM,V8 (13.9.153),214.5915791985792
+HashMapObjectIterationBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),79.58515798160286
+HashMapObjectPutBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),83.90165389777695
+HashMapObjectPutBenchmark,JVM (C2),OpenJDK (24.0.1),87.51296892179329
+HashMapObjectPutBenchmark,J2CL - JS,V8 (13.9.153),22.721015462427122
+HashMapObjectPutBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),18.40558294490682
+HashMapObjectPutBenchmark,J2CL - WASM,V8 (13.9.153),63.909314976876054
+HashMapObjectPutBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),32.903414912791874
+HashMapStringContainsKeyBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),249.04554094283222
+HashMapStringContainsKeyBenchmark,JVM (C2),OpenJDK (24.0.1),353.3813909688859
+HashMapStringContainsKeyBenchmark,J2CL - JS,V8 (13.9.153),32.54019697220201
+HashMapStringContainsKeyBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),10.591954445149707
+HashMapStringContainsKeyBenchmark,J2CL - WASM,V8 (13.9.153),83.99550842790806
+HashMapStringContainsKeyBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),56.16838498793338
+HashMapStringContainsValueBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),0.23489480621323827
+HashMapStringContainsValueBenchmark,JVM (C2),OpenJDK (24.0.1),0.23442079557897788
+HashMapStringContainsValueBenchmark,J2CL - JS,V8 (13.9.153),0.07043516188982123
+HashMapStringContainsValueBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),0.014185123281801321
+HashMapStringContainsValueBenchmark,J2CL - WASM,V8 (13.9.153),0.09668131471883448
+HashMapStringContainsValueBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),0.03644334990333239
+HashMapStringIterationBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),286.30853977551754
+HashMapStringIterationBenchmark,JVM (C2),OpenJDK (24.0.1),315.7641521513836
+HashMapStringIterationBenchmark,J2CL - JS,V8 (13.9.153),112.01193228157345
+HashMapStringIterationBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),17.366331969489977
+HashMapStringIterationBenchmark,J2CL - WASM,V8 (13.9.153),197.41052744699397
+HashMapStringIterationBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),83.2220719709679
+HashMapStringPutBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),77.89890596837854
+HashMapStringPutBenchmark,JVM (C2),OpenJDK (24.0.1),84.36724391593587
+HashMapStringPutBenchmark,J2CL - JS,V8 (13.9.153),17.14984126314379
+HashMapStringPutBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),12.987369476473464
+HashMapStringPutBenchmark,J2CL - WASM,V8 (13.9.153),62.53413682466854
+HashMapStringPutBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),33.70930559317908
+LinkedHashMapStringContainsKeyBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),247.84812507886517
+LinkedHashMapStringContainsKeyBenchmark,JVM (C2),OpenJDK (24.0.1),347.535996638782
+LinkedHashMapStringContainsKeyBenchmark,J2CL - JS,V8 (13.9.153),31.63324704751305
+LinkedHashMapStringContainsKeyBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),10.41907549826411
+LinkedHashMapStringContainsKeyBenchmark,J2CL - WASM,V8 (13.9.153),70.98055271883567
+LinkedHashMapStringContainsKeyBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),56.241221221971635
+LinkedHashMapStringContainsValueBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),0.23854897810503953
+LinkedHashMapStringContainsValueBenchmark,JVM (C2),OpenJDK (24.0.1),0.23491463201784982
+LinkedHashMapStringContainsValueBenchmark,J2CL - JS,V8 (13.9.153),0.09976900612228892
+LinkedHashMapStringContainsValueBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),0.03272949487964951
+LinkedHashMapStringContainsValueBenchmark,J2CL - WASM,V8 (13.9.153),0.1575696028835436
+LinkedHashMapStringContainsValueBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),0.08879781226892838
+LinkedHashMapStringIterationBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),299.5211122820198
+LinkedHashMapStringIterationBenchmark,JVM (C2),OpenJDK (24.0.1),357.38380567609227
+LinkedHashMapStringIterationBenchmark,J2CL - JS,V8 (13.9.153),181.29143438930458
+LinkedHashMapStringIterationBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),43.60067202550566
+LinkedHashMapStringIterationBenchmark,J2CL - WASM,V8 (13.9.153),324.13415751118157
+LinkedHashMapStringIterationBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),176.72491995692863
+LinkedHashMapStringPutBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),68.09684019396795
+LinkedHashMapStringPutBenchmark,JVM (C2),OpenJDK (24.0.1),69.8681395431303
+LinkedHashMapStringPutBenchmark,J2CL - JS,V8 (13.9.153),11.351437547472639
+LinkedHashMapStringPutBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),8.844487317536915
+LinkedHashMapStringPutBenchmark,J2CL - WASM,V8 (13.9.153),52.00514718011552
+LinkedHashMapStringPutBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),31.827270224770906
+TreeMapStringContainsKeyBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),11.435766445436402
+TreeMapStringContainsKeyBenchmark,JVM (C2),OpenJDK (24.0.1),11.35524539561987
+TreeMapStringContainsKeyBenchmark,J2CL - JS,V8 (13.9.153),3.7852977942149173
+TreeMapStringContainsKeyBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),2.2547653704013424
+TreeMapStringContainsKeyBenchmark,J2CL - WASM,V8 (13.9.153),5.868263052186116
+TreeMapStringContainsKeyBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),2.896152741678765
+TreeMapStringContainsValueBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),0.13614965652947605
+TreeMapStringContainsValueBenchmark,JVM (C2),OpenJDK (24.0.1),0.13437934247923303
+TreeMapStringContainsValueBenchmark,J2CL - JS,V8 (13.9.153),0.050046497815489144
+TreeMapStringContainsValueBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),0.01380833995268022
+TreeMapStringContainsValueBenchmark,J2CL - WASM,V8 (13.9.153),0.09058759960856219
+TreeMapStringContainsValueBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),0.047356969340646406
+TreeMapStringIterationBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),160.07350675657443
+TreeMapStringIterationBenchmark,JVM (C2),OpenJDK (24.0.1),201.30689464770498
+TreeMapStringIterationBenchmark,J2CL - JS,V8 (13.9.153),95.62633427577484
+TreeMapStringIterationBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),23.127100244116882
+TreeMapStringIterationBenchmark,J2CL - WASM,V8 (13.9.153),126.17074712655344
+TreeMapStringIterationBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),130.74450186037268
+TreeMapStringPutBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),15.343688090501075
+TreeMapStringPutBenchmark,JVM (C2),OpenJDK (24.0.1),15.831655490498623
+TreeMapStringPutBenchmark,J2CL - JS,V8 (13.9.153),3.0016264541123583
+TreeMapStringPutBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),2.284876247398804
+TreeMapStringPutBenchmark,J2CL - WASM,V8 (13.9.153),8.402706243832796
+TreeMapStringPutBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),5.728045042647697
+SystemArrayCopyIntBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1128.7781203452782
+SystemArrayCopyIntBenchmark,JVM (C2),OpenJDK (24.0.1),1100.5035686798
+SystemArrayCopyIntBenchmark,J2CL - JS,V8 (13.9.153),66.42624159712616
+SystemArrayCopyIntBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),21.175687840151774
+SystemArrayCopyIntBenchmark,J2CL - WASM,V8 (13.9.153),817.4153689743215
+SystemArrayCopyIntBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),174.00741297682987
+SystemArrayCopyObjectBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),919.0442366477255
+SystemArrayCopyObjectBenchmark,JVM (C2),OpenJDK (24.0.1),1065.1338982526318
+SystemArrayCopyObjectBenchmark,J2CL - JS,V8 (13.9.153),73.34686035034807
+SystemArrayCopyObjectBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),39.488563247849655
+SystemArrayCopyObjectBenchmark,J2CL - WASM,V8 (13.9.153),348.1960167169548
+SystemArrayCopyObjectBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),22.560942661365786
+ArraysCopyOfIntBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1088.35414128897
+ArraysCopyOfIntBenchmark,JVM (C2),OpenJDK (24.0.1),1054.9397088809412
+ArraysCopyOfIntBenchmark,J2CL - JS,V8 (13.9.153),1570.22672727753
+ArraysCopyOfIntBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),703.8485157962
+ArraysCopyOfIntBenchmark,J2CL - WASM,V8 (13.9.153),807.4556640692595
+ArraysCopyOfIntBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),180.98047484016732
+ArraysCopyOfObjectBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),887.3917766307926
+ArraysCopyOfObjectBenchmark,JVM (C2),OpenJDK (24.0.1),1098.9534910870163
+ArraysCopyOfObjectBenchmark,J2CL - JS,V8 (13.9.153),1580.5195624913065
+ArraysCopyOfObjectBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),696.3414255405703
+ArraysCopyOfObjectBenchmark,J2CL - WASM,V8 (13.9.153),357.5280331091384
+ArraysCopyOfObjectBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),22.439811930115518
+ArraysSortIntBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),95.57880347343037
+ArraysSortIntBenchmark,JVM (C2),OpenJDK (24.0.1),95.85550693339061
+ArraysSortIntBenchmark,J2CL - JS,V8 (13.9.153),9.607592302998366
+ArraysSortIntBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),81.25811713166459
+ArraysSortIntBenchmark,J2CL - WASM,V8 (13.9.153),77.43772882083165
+ArraysSortIntBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),29.537952316140434
+ArraysSortObjectBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),26.370831674146682
+ArraysSortObjectBenchmark,JVM (C2),OpenJDK (24.0.1),28.20019460625904
+ArraysSortObjectBenchmark,J2CL - JS,V8 (13.9.153),11.510019765019386
+ArraysSortObjectBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),6.279589349103512
+ArraysSortObjectBenchmark,J2CL - WASM,V8 (13.9.153),33.516032786798476
+ArraysSortObjectBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),11.873721493296298
+InstanceOfBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2052.2113173878383
+InstanceOfBenchmark,JVM (C2),OpenJDK (24.0.1),2053.5425371494302
+InstanceOfBenchmark,J2CL - JS,V8 (13.9.153),460.91255013879663
+InstanceOfBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),291.0119130386637
+InstanceOfBenchmark,J2CL - WASM,V8 (13.9.153),1003.0169118982416
+InstanceOfBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),651.7449337220588
+InstanceOfRandomBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),1126.9939185174412
+InstanceOfRandomBenchmark,JVM (C2),OpenJDK (24.0.1),1166.2676905833541
+InstanceOfRandomBenchmark,J2CL - JS,V8 (13.9.153),198.67486966242262
+InstanceOfRandomBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),90.75604216954486
+InstanceOfRandomBenchmark,J2CL - WASM,V8 (13.9.153),655.9263337164364
+InstanceOfRandomBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),500.23013972198453
+InstanceOfBaselineBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2817.3701942813655
+InstanceOfBaselineBenchmark,JVM (C2),OpenJDK (24.0.1),2937.4967091073304
+InstanceOfBaselineBenchmark,J2CL - JS,V8 (13.9.153),560.4291084653731
+InstanceOfBaselineBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),316.73123895360925
+InstanceOfBaselineBenchmark,J2CL - WASM,V8 (13.9.153),1145.6917878322035
+InstanceOfBaselineBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),926.2615628604217
+InstanceOfDeepBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2034.000987284632
+InstanceOfDeepBenchmark,JVM (C2),OpenJDK (24.0.1),2051.1522865858688
+InstanceOfDeepBenchmark,J2CL - JS,V8 (13.9.153),401.511667484523
+InstanceOfDeepBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),256.9375916670043
+InstanceOfDeepBenchmark,J2CL - WASM,V8 (13.9.153),862.7654514844942
+InstanceOfDeepBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),646.2124707752744
+DynamicClassDispatchBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),325.94533461724575
+DynamicClassDispatchBenchmark,JVM (C2),OpenJDK (24.0.1),293.37849284510406
+DynamicClassDispatchBenchmark,J2CL - JS,V8 (13.9.153),476.27912743628167
+DynamicClassDispatchBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),101.60812431850309
+DynamicClassDispatchBenchmark,J2CL - WASM,V8 (13.9.153),1118.5588043432701
+DynamicClassDispatchBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),475.2938389911533
+DynamicClassDispatchRandomBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),245.56225604682155
+DynamicClassDispatchRandomBenchmark,JVM (C2),OpenJDK (24.0.1),302.41896858027025
+DynamicClassDispatchRandomBenchmark,J2CL - JS,V8 (13.9.153),536.771320772854
+DynamicClassDispatchRandomBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),88.1006316298822
+DynamicClassDispatchRandomBenchmark,J2CL - WASM,V8 (13.9.153),1157.7235455349603
+DynamicClassDispatchRandomBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),497.29420024325645
+DynamicClassDispatchBaselineBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2655.7858213973377
+DynamicClassDispatchBaselineBenchmark,JVM (C2),OpenJDK (24.0.1),2534.5038694475866
+DynamicClassDispatchBaselineBenchmark,J2CL - JS,V8 (13.9.153),1420.5925997078698
+DynamicClassDispatchBaselineBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),499.4876380653644
+DynamicClassDispatchBaselineBenchmark,J2CL - WASM,V8 (13.9.153),1122.0058583063135
+DynamicClassDispatchBaselineBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),478.9057621042249
+DynamicInterfaceDispatchBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),291.9755242077807
+DynamicInterfaceDispatchBenchmark,JVM (C2),OpenJDK (24.0.1),295.5794934058561
+DynamicInterfaceDispatchBenchmark,J2CL - JS,V8 (13.9.153),559.6156211055138
+DynamicInterfaceDispatchBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),139.56533439185918
+DynamicInterfaceDispatchBenchmark,J2CL - WASM,V8 (13.9.153),603.4107330513239
+DynamicInterfaceDispatchBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),358.21943201626556
+DynamicInterfaceDispatchRandomBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),81.24990736827894
+DynamicInterfaceDispatchRandomBenchmark,JVM (C2),OpenJDK (24.0.1),132.83471703230953
+DynamicInterfaceDispatchRandomBenchmark,J2CL - JS,V8 (13.9.153),642.0606109871715
+DynamicInterfaceDispatchRandomBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),140.50951059871824
+DynamicInterfaceDispatchRandomBenchmark,J2CL - WASM,V8 (13.9.153),650.3690108438989
+DynamicInterfaceDispatchRandomBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),373.1317121074303
+DynamicInterfaceDispatchBaselineBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),2422.1792675289626
+DynamicInterfaceDispatchBaselineBenchmark,JVM (C2),OpenJDK (24.0.1),2430.621194026478
+DynamicInterfaceDispatchBaselineBenchmark,J2CL - JS,V8 (13.9.153),1337.6458317844654
+DynamicInterfaceDispatchBaselineBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),782.8074390176876
+DynamicInterfaceDispatchBaselineBenchmark,J2CL - WASM,V8 (13.9.153),1317.6885290120936
+DynamicInterfaceDispatchBaselineBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),1074.6445602542794
+SandboxBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),6.294999057684798
+SandboxBenchmark,JVM (C2),OpenJDK (24.0.1),6.105355861447914
+SandboxBenchmark,J2CL - JS,V8 (13.9.153),1.0744981025649847
+SandboxBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),0.3936616512182517
+SandboxBenchmark,J2CL - WASM,V8 (13.9.153),5.763318725451525
+SandboxBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),2.470404176962835
+ObjectChurnMixedBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),6.948266900972802
+ObjectChurnMixedBenchmark,JVM (C2),OpenJDK (24.0.1),6.810163545305426
+ObjectChurnMixedBenchmark,J2CL - JS,V8 (13.9.153),2.2376769625223614
+ObjectChurnMixedBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),1.7816210240710575
+ObjectChurnMixedBenchmark,J2CL - WASM,V8 (13.9.153),4.982706912861376
+ObjectChurnMixedBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),2.5801957300093945
+ObjectChurnBaselineBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),119.52927485963474
+ObjectChurnBaselineBenchmark,JVM (C2),OpenJDK (24.0.1),110.11870998164936
+ObjectChurnBaselineBenchmark,J2CL - JS,V8 (13.9.153),7.4598294271718375
+ObjectChurnBaselineBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),4.735497689566332
+ObjectChurnBaselineBenchmark,J2CL - WASM,V8 (13.9.153),66.31085980177033
+ObjectChurnBaselineBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),47.703201527606524
+BoxingBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),290.79443942238936
+BoxingBenchmark,JVM (C2),OpenJDK (24.0.1),291.61366734687806
+BoxingBenchmark,J2CL - JS,V8 (13.9.153),201.00418976225927
+BoxingBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),106.22375895181872
+BoxingBenchmark,J2CL - WASM,V8 (13.9.153),201.176978088368
+BoxingBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),45.144730858327755
+BoxingCachedBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),318.52583048637433
+BoxingCachedBenchmark,JVM (C2),OpenJDK (24.0.1),320.4832958014496
+BoxingCachedBenchmark,J2CL - JS,V8 (13.9.153),233.42474220293207
+BoxingCachedBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),110.26438782585724
+BoxingCachedBenchmark,J2CL - WASM,V8 (13.9.153),208.07849854972605
+BoxingCachedBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),51.15415067867791
+BoxingBaselineBenchmark,JVM (Tiered Compilation),OpenJDK (24.0.1),6447.815965476151
+BoxingBaselineBenchmark,JVM (C2),OpenJDK (24.0.1),6397.950172335377
+BoxingBaselineBenchmark,J2CL - JS,V8 (13.9.153),1931.7169784632856
+BoxingBaselineBenchmark,J2CL - JS,SpiderMonkey (v140.0b9),921.1169867276931
+BoxingBaselineBenchmark,J2CL - WASM,V8 (13.9.153),1536.0065688793259
+BoxingBaselineBenchmark,J2CL - WASM,SpiderMonkey (v140.0b9),2369.5980296224734

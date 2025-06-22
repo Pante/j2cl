@@ -50,13 +50,29 @@ def benchmark(name, deps = [], data = [], jvm_only = False, perfgate_test_tags =
         name = name,
         actual = "%s_local" % name,
     )
+
+    # Tiered Compilation
     java_binary(
-        name = "%s_local" % name,
+        name = "%s_local-jvm-tiered" % name,
         testonly = 1,
         main_class = "%s.%sLauncher" % (benchmark_java_package, name),
         use_launcher = False,
         runtime_deps = [":%s_lib" % name],
         jvm_flags = JVM_FLAGS,
+    )
+    # Use only C2 optimizing compiler
+    java_binary(
+        name = "%s_local-jvm-c2" % name,
+        testonly = 1,
+        main_class = "%s.%sLauncher" % (benchmark_java_package, name),
+        use_launcher = False,
+        runtime_deps = [":%s_lib" % name],
+        jvm_flags = [
+            "-XX:-TieredCompilation",
+            "-Xss3M",
+            # We disable this since it the flag has been deprecated and no longer valid in newer Java versions.
+            # "-Xverify:none",
+        ]
     )
 
     if jvm_only:
