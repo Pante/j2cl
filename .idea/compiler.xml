@@ -4,8 +4,6 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="_aux.synthetic.jre.javatests" options="-Xep:CheckReturnValue:OFF -Xep:ComparableType:OFF -Xep:DoNotCall:OFF -Xep:EqualsIncompatibleType:OFF -Xep:IdentityBinaryExpression:OFF -Xep:MixedArrayDimensions:OFF -Xep:ReturnValueIgnored:OFF -Xep:SelfAssertion:OFF -Xep:SelfComparison:OFF -Xep:SelfEquality:OFF -Xep:SelfEquals:OFF" />
       <module name="_aux.synthetic.samples.box2d.src.main.java" options="-Xep:EqualsHashCode:OFF -Xep:MixedArrayDimensions:OFF" />
-      <module name="jre.java.jre_bootclasspath" options="--system none --patch-module java.base=. --add-reads java.base=ALL-UNNAMED -Xep:ShouldNotSubclass:OFF -Xep:CheckReturnValue:OFF -Xep:MixedArrayDimensions:OFF -XDinjectLogSites=false -XDstringConcat=inline -source 11 -target 11" />
-      <module name="jre.java.jre_bootclasspath-j2wasm" options="--system none --patch-module java.base=. --add-reads java.base=ALL-UNNAMED -Xep:ShouldNotSubclass:OFF -Xep:CheckReturnValue:OFF -Xep:MixedArrayDimensions:OFF -XDinjectLogSites=false -XDstringConcat=inline -source 11 -target 11 -XDturbine.emitPrivateFields -Xep:ThreadSafe:OFF" />
       <module name="jre.javatests.emul_tests_lib" options="-Xep:CheckReturnValue:OFF -Xep:ComparableType:OFF -Xep:DoNotCall:OFF -Xep:EqualsIncompatibleType:OFF -Xep:IdentityBinaryExpression:OFF -Xep:MixedArrayDimensions:OFF -Xep:ReturnValueIgnored:OFF -Xep:SelfAssertion:OFF -Xep:SelfComparison:OFF -Xep:SelfEquality:OFF -Xep:SelfEquals:OFF" />
       <module name="samples.box2d.src.main.java.box2d_library" options="-Xep:EqualsHashCode:OFF -Xep:MixedArrayDimensions:OFF" />
       <module name="transpiler.java.com.google.j2cl.transpiler.ast.ast" options="-Xep:BetaApi:OFF" />

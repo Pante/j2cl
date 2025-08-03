@@ -16,7 +16,6 @@
 package com.google.j2cl.benchmarks.jre;
 
 import com.google.j2cl.benchmarking.framework.AbstractBenchmark;
-import javax.annotation.Nullable;
 import java.util.*;
 
 /** A benchmark that measures class dispatch performance. */
@@ -25,7 +24,6 @@ public final class DynamicClassDispatchRandomBenchmark extends AbstractBenchmark
   private static final Random random = new Random(42);
   private Object[] array;
 
-  @Nullable
   @Override
   public Object run() {
     int count = 0;
