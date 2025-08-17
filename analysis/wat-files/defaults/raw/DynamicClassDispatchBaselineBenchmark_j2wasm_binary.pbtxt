@@ -1,0 +1,8 @@
+label: "@@//benchmarking/java/com/google/j2cl/benchmarks/jre:DynamicClassDispatchBaselineBenchmark_j2wasm_binary"
+namespace: "goog:DynamicClassDispatchBaselineBenchmark_j2wasm_binary.j2wasm"
+suppress: "JSC_IMPLICITLY_NONNULL_JSDOC"
+suppress: "JSC_UNKNOWN_EXPR_TYPE"
+suppress: "JSC_ARRAY_PASSED_TO_GOOG_OBJECT"
+suppress: "JSC_NESTED_NAME_IN_GOOG_MODULE"
+suppress: "JSC_IMPLICITLY_NULLABLE_JSDOC"
+module: "/benchmarking/java/com/google/j2cl/benchmarks/jre/DynamicClassDispatchBaselineBenchmark_j2wasm_binary.js"

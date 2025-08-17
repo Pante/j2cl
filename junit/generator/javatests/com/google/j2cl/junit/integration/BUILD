@@ -8,7 +8,7 @@ package(
 java_library(
     name = "junit_integration_helper",
     testonly = 1,
-    srcs = glob(["*.java"]),
+    srcs = glob(["*.java"], exclude = ["*Test.java"]),
     visibility = [":__subpackages__"],
     deps = [
         "//third_party:auto_value",

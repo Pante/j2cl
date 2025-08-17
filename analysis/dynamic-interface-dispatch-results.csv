@@ -1,0 +1,25 @@
+Benchmark,Toolchain,Engine,Throughput (ops/ms)
+DynamicInterfaceDispatchBaselineBenchmark,Wasm -O0,V8 (13.9.153),786.5694248620606
+DynamicInterfaceDispatchBaselineBenchmark,Wasm -O0,SpiderMonkey (v140.0b9),416.62240248408534
+DynamicInterfaceDispatchBenchmark,Wasm -O0,V8 (13.9.153),571.8084481038444
+DynamicInterfaceDispatchBenchmark,Wasm -O0,SpiderMonkey (v140.0b9),351.03731983356687
+DynamicInterfaceDispatchRandomBenchmark,Wasm -O0,V8 (13.9.153), 598.9230204255896
+DynamicInterfaceDispatchRandomBenchmark,Wasm -O0,SpiderMonkey (v140.0b9),368.25038683674546
+DynamicInterfaceDispatchBaselineBenchmark,Wasm - 1 Pass,V8 (13.9.153),1330.3507218122759
+DynamicInterfaceDispatchBaselineBenchmark,Wasm - 1 Pass,SpiderMonkey (v140.0b9),969.6777046079712
+DynamicInterfaceDispatchBenchmark,Wasm - 1 Pass,V8 (13.9.153), 605.517151950486
+DynamicInterfaceDispatchBenchmark,Wasm - 1 Pass,SpiderMonkey (v140.0b9),356.0175774864193
+DynamicInterfaceDispatchRandomBenchmark,Wasm - 1 Pass,V8 (13.9.153),630.5493627269094
+DynamicInterfaceDispatchRandomBenchmark,Wasm - 1 Pass,SpiderMonkey (v140.0b9),367.6774804411427
+DynamicInterfaceDispatchBaselineBenchmark,Wasm - 2 Passes,V8 (13.9.153),1337.72405196802
+DynamicInterfaceDispatchBaselineBenchmark,Wasm - 2 Passes,SpiderMonkey (v140.0b9),1101.8808351349935
+DynamicInterfaceDispatchBenchmark,Wasm - 2 Passes,V8 (13.9.153),626.1989106238652
+DynamicInterfaceDispatchBenchmark,Wasm - 2 Passes,SpiderMonkey (v140.0b9),367.081666231605
+DynamicInterfaceDispatchRandomBenchmark,Wasm - 2 Passes,V8 (13.9.153), 631.1018928829981
+DynamicInterfaceDispatchRandomBenchmark,Wasm - 2 Passes,SpiderMonkey (v140.0b9),364.337664169832
+DynamicInterfaceDispatchBaselineBenchmark,Wasm - 2.5 Passes,V8 (13.9.153),1326.2132511523541
+DynamicInterfaceDispatchBaselineBenchmark,Wasm - 2.5 Passes,SpiderMonkey (v140.0b9),1064.089782191625
+DynamicInterfaceDispatchBenchmark,Wasm - 2.5 Passes,V8 (13.9.153),612.8987178913657
+DynamicInterfaceDispatchBenchmark,Wasm - 2.5 Passes,SpiderMonkey (v140.0b9),360.5708679311875
+DynamicInterfaceDispatchRandomBenchmark,Wasm - 2.5 Passes,V8 (13.9.153),626.2962623866645
+DynamicInterfaceDispatchRandomBenchmark,Wasm - 2.5 Passes,SpiderMonkey (v140.0b9),366.92055005604055

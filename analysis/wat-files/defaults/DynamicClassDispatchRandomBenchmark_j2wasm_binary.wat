@@ -1,3 +1,5 @@
+;;; See Line ~526 for actual benchmark code.
+
 (global $com.google.j2cl.benchmarks.jre.DynamicClassDispatchRandomBenchmarkLauncher.itable (ref $itable) (global.get $itable.empty))
 
 (global $com.google.j2cl.benchmarks.jre.DynamicClassDispatchRandomBenchmark.Foo.itable (ref $itable) (global.get $itable.empty))

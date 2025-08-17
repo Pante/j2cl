@@ -1,0 +1,10 @@
+-classpath
+bazel-out/darwin_arm64-fastbuild/bin/jre/java/libjre-j2wasm-hjar.jar:bazel-out/darwin_arm64-fastbuild/bin/jre/java/libjavaemul_internal_annotations-hjar.jar:bazel-out/darwin_arm64-fastbuild/bin/external/+_repo_rules+com_google_jsinterop_annotations-j2cl/java/jsinterop/annotations/_ijar/annotations-j2cl_jar/+_repo_rules+com_google_jsinterop_annotations-j2cl/java/jsinterop/annotations/libannotations-ijar.jar:bazel-out/darwin_arm64-fastbuild/bin/benchmarking/java/com/google/j2cl/benchmarks/jre/libDynamicClassDispatchBaselineBenchmark_lib-j2wasm-hjar.jar:bazel-out/darwin_arm64-fastbuild/bin/external/rules_jvm_external++maven+google_bazel_common_maven/com/google/code/findbugs/jsr305/3.0.2/header_jsr305-3.0.2.jar:bazel-out/darwin_arm64-fastbuild/bin/benchmarking/java/com/google/j2cl/benchmarking/framework/libframework-j2wasm-hjar.jar
+-output
+bazel-out/darwin_arm64-fastbuild/bin/benchmarking/java/com/google/j2cl/benchmarks/jre/DynamicClassDispatchBaselineBenchmark_j2wasm_binary.exports
+-entryPointPattern
+com.google.j2cl.benchmarks.jre.DynamicClassDispatchBaselineBenchmarkLauncher#execute
+-entryPointPattern
+com.google.j2cl.benchmarks.jre.DynamicClassDispatchBaselineBenchmarkLauncher#prepareForRunOnce
+-entryPointPattern
+com.google.j2cl.benchmarks.jre.DynamicClassDispatchBaselineBenchmarkLauncher#runOnce

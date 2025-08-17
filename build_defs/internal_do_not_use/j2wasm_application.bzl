@@ -476,6 +476,16 @@ def j2wasm_application(name, defines = dict(), **kwargs):
 
     _j2wasm_application(
         name = name,
+#         # No optimizations - only essential lowering passes.
+#         # We also disable:
+#         # "--closed-world"
+#         # "--traps-never-happen"
+#         binaryen_args = [
+#             "--intrinsic-lowering", # https://github.com/WebAssembly/binaryen/blob/main/src/passes/Intrinsics.cpp
+#             "--string-lowering", # https://github.com/WebAssembly/binaryen/blob/main/src/passes/StringLowering.cpp
+#             "--remove-unused-module-elements",
+#             "-O0"
+#         ],
         binaryen_args = [
             # Stage 1
             # Optimization flags (affecting passes in general) included at the beginning of stage.
@@ -533,19 +543,21 @@ def j2wasm_application(name, defines = dict(), **kwargs):
             "--intrinsic-lowering",
             "--gufa",
             "--unsubtyping",
-            # Get several rounds of -O3 after intrinsic lowering.
-            "-O3",
-            "--cfp-reftest",
-            "--optimize-j2cl",
-            "-O3",
-            "--optimize-j2cl",
-            "--cfp-reftest",
-            "--type-merging",
-            "-O3",
-            "--cfp-reftest",
-            "--optimize-j2cl",
+#             # Get several rounds of -O3 after intrinsic lowering.
+#             "-O3",
+#             "--cfp-reftest",
+#             "--optimize-j2cl",
+#             "-O3",
+#             "--optimize-j2cl",
+#             "--cfp-reftest",
+#             "--type-merging",
+#             "-O3",
+#             "--cfp-reftest",
+#             "--optimize-j2cl",
 
             # Final clean-ups.
+            # We need to add "--intrinsic-lowering" if we skip Stage 3 as the test will otherwise crash.
+            # "--intrinsic-lowering",
             "--string-lowering",
             "--remove-unused-module-elements",
             "--reorder-globals",
